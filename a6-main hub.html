@@ -1,6 +1,6 @@
 <html>
 <body>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <div
     <!-- text -->
 </p>
@@ -49,16 +49,22 @@ for the 6a
 <head>
 <style>
 
+body {
+    background: linear-gradient(135deg, #000000 40%, #764ba2 100%);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
 .linker {
 background: linear-gradient(90deg, #677eea 0%, #764ba2 100%);
 }
 
 
 .text1 {
-border: 10rem;
-width: 200rem;
-padding: 5rem;
-color: gold;
+border: 10px;
+width: 200px;
+padding: 5px;
 }
 .text2 {
 color: cyan;
@@ -66,15 +72,17 @@ color: cyan;
 .text3 hover {
 color: gold;
 }
-body {
-background: linear-gradient(135deg, #000000 40%, #764ba2 100%);
-}
 #textL {
 width: 35rem;
 border: ;
 background: linear-gradient(135deg, #000000 7%, purple 10%, #000000 50%, crimson 100%);
-border: linear-gradient(135deg, #000000 7%, #764ba2 10%, #000000 50%, crimson 100%)
-    }
+border: linear-gradient(135deg, #000000 7%, #764ba2 10%, #000000 50%, crimson 100%);
+}
+        .album {
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    gap: 10px;
+}
 </style>
 </head>
 </html>
