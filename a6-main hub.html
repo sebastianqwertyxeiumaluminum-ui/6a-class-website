@@ -1,10 +1,12 @@
 <html>
 <body>
+    
+    <div
     <!-- text -->
-    <p></p>
 </p>
 <h2 class="text1">hello (hallo)
     this is the a6 website (das ist die 6a Webseite)</h2>
+    <c
 
 <a class="text2">for most of the things (I'm open to suggestions)
 
@@ -23,36 +25,39 @@ for the 6a
 </details>
 <details>
     <summary>who is in our class chat?</summary>
-    for privacy I cannot do it on the open Web
+    summer, Emily Pierre, Konstantin, Mathetes,
+    "but there is any more in the class!"
+    some are not added for some reason :(
 </details>
 
 <!--links-->
-<button id="linker" popovertarget="textL">open the links</button>
+<button class="linker" popovertarget="textL">open the links</button>
 <div id="textL" popover>
-<a href="Brandy!.html"><h5>willst du der Klasse Hund? hier klicken!</h5></a>
-|=============================|
-<a class="text3" href="a6-pictures.html"><h5>willst du die photos? hier klicken!</h5></a>
-|=============================|
-<a href="videos.html"><h5>willst du die videos? hier klicken!</h5></a>
-|=============================|
-<a href="memes.html"><h5></h5>willst du memes? hier klicken!"</h5></a>
-|=================================|
-<a href="hall of shame.html"><h5>willst du der "Hall of shame" ansehen? hier klicken!</h5>
+    <div class="X">
+        <a href="Brandy!.html"><h5>willst du der Klasse Hund? hier klicken!</h5></a>
+        |=============================|
+        <a class="text3" href="a6-pictures.html"><h5>willst du die photos? hier klicken!</h5></a>
+        |=============================|
+        <a href="videos.html"><h5>willst du die videos? hier klicken!</h5></a>
+        |=============================|
+        <a href="memes.html"><h5></h5>willst du memes? hier klicken!"</h5></a>
+    |=================================|
+    <a href="hall of shame.html"><h5>willst du der "Hall of shame" ansehen? hier klicken!</h5>
+    </div>
 </div>
 </body>
 <head>
 <style>
 
-    body {
-        background: linear gradient (purple 20%, black 40%, purple 60%, black 80%, purple 100%) 
-    }
+.linker {
+background: linear-gradient(90deg, #677eea 0%, #764ba2 100%);
+}
+
 
 .text1 {
-border: 10rem;
-width: 200rem;
-padding: 5rem;
-zoom: 7rem;
-background-color: rgb(#255,0,0) rgb(#0,255,0);
+border: 10px;
+width: 200px;
+padding: 5px;
 }
 .text2 {
 color: cyan;
@@ -60,13 +65,19 @@ color: cyan;
 .text3 hover {
 color: gold;
 }
-.textL {
-    border: 2rem;
-    width: 50rem;
-    padding: 20rem;
-    border-color: cyan;
-    color: cyan;
-    
+body {
+background: linear-gradient(135deg, #000000 40%, #764ba2 100%);
+}
+#textL {
+width: 35rem;
+border: ;
+background: linear-gradient(135deg, #000000 7%, purple 10%, #000000 50%, crimson 100%);
+border: linear-gradient(135deg, #000000 7%, #764ba2 10%, #000000 50%, crimson 100%);
+}
+        .album {
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    gap: 10px;
 }
 </style>
 </head>
